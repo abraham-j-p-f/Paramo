@@ -25,3 +25,33 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
+
+.hscrollbar::-webkit-scrollbar {
+  width: 12px;               /* width of the entire scrollbar */
+  height: 12px;
+}
+
+.hscrollbar::-webkit-scrollbar-track {
+  background: transparent;
+  border-top: 4px solid #131313;        /* color of the tracking area */
+  border-bottom: 4px solid #131313;
+}
+
+.hscrollbar::-webkit-scrollbar-thumb {
+  background-color: #131313;    /* color of the scroll thumb */
+}
+
+.vscrollbar::-webkit-scrollbar {
+  width: 12px;               /* width of the entire scrollbar */
+}
+
+.vscrollbar::-webkit-scrollbar-track {
+  background: white;
+  border-left: 4px solid #131313;        /* color of the tracking area */
+  border-right: 4px solid #131313;
+}
+
+.vscrollbar::-webkit-scrollbar-thumb {
+  background-color: #131313;    /* color of the scroll thumb */
+}
+
