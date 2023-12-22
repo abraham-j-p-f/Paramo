@@ -8,7 +8,8 @@ import News03 from "../../../public/images/news03.png";
 function New({ title = "Texto prueba", img }) {
   return (
     <Link
-      href={"#"}
+      href={"https://www.youtube.com/watch?v=dQw4w9WgXcQ"}
+      target="_blank"
       className="flex flex-col max-w-md w-full sm:w-[458px] flex-none "
     >
       <div className="w-full aspect-square sm:aspect-[4/3] border-4 border-paramo-black z-10">

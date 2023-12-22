@@ -23,7 +23,8 @@ function Li({ children, href, className }) {
     <li>
       <Link
         className={`border-b-2 border-white hover:border-paramo-black dark:border-paramo-black dark:hover:border-white ${className}`}
-        href={"#"}
+        href={href}
+        target="_blank"
       >
         {children}
       </Link>
@@ -58,7 +59,11 @@ export default function NavBar() {
     <header className="w-full flex justify-center relative">
       <Line />
       <div className="container border-b-4 border-paramo-black text-paramo-black dark:border-white dark:text-white flex justify-between items-center pl-4 pr-4 sm:pl-8 sm:pr-8 xl:pr-0">
-        <Link href={"#"} className="flex items-center mr-0 sm:mr-16 gap-8 py-4">
+        <Link
+          href={"https://www.youtube.com/watch?v=dQw4w9WgXcQ"}
+          target="_blank"
+          className="flex items-center mr-0 sm:mr-16 gap-8 py-4"
+        >
           <Logo
             className="h-20 w-20"
             primary={isDark ? "#131313" : "white"}
@@ -72,22 +77,42 @@ export default function NavBar() {
           <div className="p-6 border-b-4 border-paramo-black dark:border-white">
             <nav className="text-xl text-paramo-black dark:text-white">
               <ul className="flex space-x-8">
-                <Li href={"#"}>Profesores</Li>
-                <Li href={"#"}>Noticias</Li>
-                <Li href={"#"}>Dirección</Li>
-                <Li href={"#"}>Cursos</Li>
-                <Li href={"#"}>Sedes</Li>
+                <Li href={"https://www.youtube.com/watch?v=dQw4w9WgXcQ"}>
+                  Profesores
+                </Li>
+                <Li href={"https://www.youtube.com/watch?v=dQw4w9WgXcQ"}>
+                  Noticias
+                </Li>
+                <Li href={"https://www.youtube.com/watch?v=dQw4w9WgXcQ"}>
+                  Dirección
+                </Li>
+                <Li href={"https://www.youtube.com/watch?v=dQw4w9WgXcQ"}>
+                  Cursos
+                </Li>
+                <Li href={"https://www.youtube.com/watch?v=dQw4w9WgXcQ"}>
+                  Sedes
+                </Li>
               </ul>
             </nav>
           </div>
           <div className="p-6">
             <nav className="text-xl text-paramo-black dark:text-white">
               <ul className="flex space-x-8">
-                <Li href={"#"}>Universidad</Li>
-                <Li href={"#"}>Estudios</Li>
-                <Li href={"#"}>Investiación</Li>
-                <Li href={"#"}>Alumnos</Li>
-                <Li href={"#"}>Comunidad</Li>
+                <Li href={"https://www.youtube.com/watch?v=dQw4w9WgXcQ"}>
+                  Universidad
+                </Li>
+                <Li href={"https://www.youtube.com/watch?v=dQw4w9WgXcQ"}>
+                  Estudios
+                </Li>
+                <Li href={"https://www.youtube.com/watch?v=dQw4w9WgXcQ"}>
+                  Investiación
+                </Li>
+                <Li href={"https://www.youtube.com/watch?v=dQw4w9WgXcQ"}>
+                  Alumnos
+                </Li>
+                <Li href={"https://www.youtube.com/watch?v=dQw4w9WgXcQ"}>
+                  Comunidad
+                </Li>
               </ul>
             </nav>
           </div>

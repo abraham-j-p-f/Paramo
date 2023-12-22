@@ -5,7 +5,8 @@ import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
 export function YellowButton({ children, className = "" }) {
   return (
     <Link
-      href="#"
+      href={"https://www.youtube.com/watch?v=dQw4w9WgXcQ"}
+      target="_blank"
       className={`bg-paramo-yellow text-paramo-black p-4 lg:py-4 lg:px-8 text-xl md:text-[26.66px] 2xl:text-[35.54px] font-bold flex flex-1 lg:flex-none lg:block justify-center ${className}`}
     >
       <div className="flex items-center gap-4 w-full justify-between">

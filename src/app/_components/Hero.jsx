@@ -32,7 +32,8 @@ export default function Hero() {
                     Estudios
                   </YellowButton>
                   <Link
-                    href={"#"}
+                    href={"https://www.youtube.com/watch?v=dQw4w9WgXcQ"}
+                    target="_blank"
                     className={`border-t-4 border-l-4 border-b-0 border-r-0 sm:border-b-4 sm:border-r-4 ${borderStyle} ${textStyle} p-4 text-xl md:text-[26.66px] 2xl:text-[35.54px] font-bold bg-white dark:bg-paramo-black hover:bg-slate-200 dark:hover:bg-neutral-950 transition-all flex flex-1 lg:flex-none lg:block justify-center`}
                   >
                     Conócenos

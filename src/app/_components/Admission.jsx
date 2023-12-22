@@ -26,7 +26,8 @@ export default function AdmissionProcess() {
           </div>
         </div>
         <Link
-          href={"#"}
+          href={"https://www.youtube.com/watch?v=dQw4w9WgXcQ"}
+          target="_blank"
           className="bg-white py-4 text-[20px] lg:text-[35.54px] font-bold px-8 sm:px-[calc((100%-576px)/2)] md:pl-[calc((100%-702px)/2)] lg:px-[calc((100%-960px)/2)] xl:px-[calc((100%-1216px)/2)] 2xl:px-[calc((100%-1472px)/2)]"
         >
           <div className="w-full md:w-3/5 flex items-center justify-between lg:justify-normal gap-4">

@@ -3,7 +3,6 @@ import Logo from "./NavBar/paramo";
 import Link from "next/link";
 import { faFacebook } from "@fortawesome/free-brands-svg-icons";
 import { faInstagram } from "@fortawesome/free-brands-svg-icons";
-import { faTwitterSquare } from "@fortawesome/free-brands-svg-icons";
 import { faTwitter } from "@fortawesome/free-brands-svg-icons";
 
 function FooterList({ children, title }) {
@@ -26,7 +25,8 @@ export default function Footer() {
             <div className="flex justify-between flex-wrap gap-8">
               <div>
                 <Link
-                  href={"#"}
+                  href={"https://www.youtube.com/watch?v=dQw4w9WgXcQ"}
+                  target="_blank"
                   className="flex items-center mr-0 sm:mr-16 gap-8 py-4"
                 >
                   <Logo className="h-20 w-20" />
@@ -93,13 +93,25 @@ export default function Footer() {
                 </div>
               </div>
               <div className="flex gap-8 justify-center items-center">
-                <Link href={"#"} className="w-8 h-8 ">
+                <Link
+                  href={"https://www.youtube.com/watch?v=dQw4w9WgXcQ"}
+                  target="_blank"
+                  className="w-8 h-8 "
+                >
                   <FontAwesomeIcon icon={faFacebook} className="h-full" />
                 </Link>
-                <Link href={"#"} className="w-8 h-8 ">
+                <Link
+                  href={"https://www.youtube.com/watch?v=dQw4w9WgXcQ"}
+                  target="_blank"
+                  className="w-8 h-8 "
+                >
                   <FontAwesomeIcon icon={faInstagram} className="h-full" />
                 </Link>
-                <Link href={"#"} className="w-8 h-8 ">
+                <Link
+                  href={"https://www.youtube.com/watch?v=dQw4w9WgXcQ"}
+                  target="_blank"
+                  className="w-8 h-8 "
+                >
                   <FontAwesomeIcon icon={faTwitter} className="h-full" />
                 </Link>
               </div>

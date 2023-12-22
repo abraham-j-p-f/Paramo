@@ -5,7 +5,8 @@ import Link from "next/link";
 export default function GithubBar() {
   return (
     <Link
-      href={"#"}
+      href={"https://github.com/abraham-j-p-f"}
+      target="_blank"
       className="bg-white md:py-8 py-4 flex justify-center items-center gap-8"
     >
       <div className="w-8 h-8">
